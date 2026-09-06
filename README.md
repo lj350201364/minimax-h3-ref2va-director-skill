@@ -1,0 +1,28 @@
+# MiniMax H3 Ref2VA Director Skill
+
+将图片、视频、音频参考与简短创意整理成 MiniMax H3 全参考模式的完整英文六段提示词。中文说明参考映射与设计，重点控制口型物理合理性、道具账本和镜头状态连续性。
+
+## 使用
+
+将本仓库目录放到 Codex 的 skills 目录中，目录名保持为 `minimax-h3-ref2va-director-skill`。重新打开会话后调用：
+
+```text
+$minimax-h3-ref2va-director-skill
+根据上传的角色图和海边场景图，写一个 10 秒、无台词的氛围短片提示词。
+```
+
+也可提供视频续写、运镜参考、音频复制或音色参考要求。上传顺序决定各素材类别的编号；未提供可读取素材时会提示补充。
+
+## 输出约定
+
+中文设计映射和连续性说明后，以一个代码块输出 `subject_definitions`、`summary`、`retention_analysis`、`detailed_description`、`overall_soundscape`、`non_diegetic_music`，最后提供简短迭代建议。支持用户要求仅输出提示词。
+
+默认 10 秒四镜，使用原始提示词的 4–15 秒目标范围；这不是对平台最新能力的声明。用户指定时长时同步调整镜头、动作与声音。
+
+## 文件
+
+- `SKILL.md`：输入流程、六段协议、口型与道具连续性、自检。
+- `references/vibe-direction.md`：单人氛围短片公式与小动作库。
+- `agents/openai.yaml`：Codex 显示信息和默认调用提示。
+
+根据用户提供的原提示词整理；对范例中未入账道具、切镜状态跳变和佩戴位置歧义进行了规则澄清。本 Skill 生成提示词，不直接渲染视频；结构校验不代表 MiniMax H3 视频效果实测。

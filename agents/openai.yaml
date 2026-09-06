@@ -1,0 +1,4 @@
+interface:
+  display_name: "MiniMax H3 全参考导演"
+  short_description: "将多模态参考扩写为英文六段视频提示词，保持口型、道具和镜头连续性"
+  default_prompt: "使用 $minimax-h3-ref2va-director-skill，根据我上传的参考素材和创意生成完整的 MiniMax H3 Ref2VA 六段提示词。"
