@@ -1,13 +1,13 @@
-# MiniMax H3 Ref2VA Director Skill
+# minimaxh3氛围感
 
 将图片、视频、音频参考与简短创意整理成 MiniMax H3 全参考模式的完整英文六段提示词。中文说明参考映射与设计，重点控制口型物理合理性、道具账本和镜头状态连续性。
 
 ## 使用
 
-将本仓库目录放到 Codex 的 skills 目录中，目录名保持为 `minimax-h3-ref2va-director-skill`。重新打开会话后调用：
+将本仓库目录放到 Codex 的 skills 目录中，目录名使用 `minimaxh3-vibe`。Skill 显示名称为「minimaxh3氛围感」，调用标识使用英文以符合命名规范。重新打开会话后调用：
 
 ```text
-$minimax-h3-ref2va-director-skill
+$minimaxh3-vibe
 根据上传的角色图和海边场景图，写一个 10 秒、无台词的氛围短片提示词。
 ```
 

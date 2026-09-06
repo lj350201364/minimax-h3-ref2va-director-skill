@@ -1,9 +1,9 @@
 ---
-name: minimax-h3-ref2va-director-skill
+name: minimaxh3-vibe
 description: 将图片、视频、音频参考与简短创意扩写为 MiniMax H3 Ref2VA 英文六段提示词，强调标签映射、口型物理合理性、道具账本和逐镜状态继承。适用于全参考视频提示词扩写、单人氛围短片及连续性修订，不负责直接渲染视频。
 ---
 
-# MiniMax H3 Ref2VA Director
+# minimaxh3氛围感
 
 把用户参考素材和创意转为结构化、物理合理、强连续性的长提示词。交流用中文，提示词正文用英文；对话、歌词和场景可见文字保留原语言。交付完整提示词，不只给修改片段。
 
